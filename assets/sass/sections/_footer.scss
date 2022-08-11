@@ -1,0 +1,64 @@
+.footer-area {
+    padding-top: 120px;
+    .f-ready-w {
+        font-size: 24px;
+        line-height: 24px;
+        color: $orange;
+    }
+    .f-location {
+        font-size: 18px;
+        line-height: 18px;
+        color: $text-color;
+        margin: 40px 0 10px;
+        display: block;
+
+    }
+    .f-mail {
+        font-size: 48px;
+        line-height: 58px;
+        color: $black;
+    }
+    .f-tel {
+        font-size: 18px;
+        line-height: 18px;
+        color: $text-color;
+        margin: 22px 0 40px;
+        display: block;
+    }
+    .f-social-list {
+        list-style: none;
+        li {
+            display: inline-block;
+            a {
+                font-size: 14px;
+                line-height: 14px;
+                color: $black;
+                margin: 0 15px;
+                display: inline-block;
+                &:hover {
+                    color: $orange;
+                    transition: .3s ease-in-out all;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    .f-bdr {
+        border-bottom: 1px solid #E7E7E7;
+        margin-top: 75px;
+    }
+    .designed-area {
+        margin: 50px 0 54px;
+        span {
+            color: $text-color;
+            font-size: 15px;
+            line-height: 15px;
+            a {
+                color: $orange;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

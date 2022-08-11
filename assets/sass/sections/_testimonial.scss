@@ -1,0 +1,94 @@
+.testimonial-area {
+    margin-bottom: 160px;
+    .testimonial-heading {
+        position: relative;
+        display: inline-block;
+        &:after {
+            content: url("/assets/images/testimonial-shape.png");
+            position: absolute;
+            top: 25px;
+            right: 0;
+        }
+    }
+    .testimonial-body {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: $bg-gray;
+        margin-top: 50px;
+        padding: 80px 91px 80px 90px;
+        .testimonial-quote {
+            width: 60%;
+            position: relative;
+            .quote-icon {
+                position: absolute;
+                top: -50px;
+                left: -20px;
+            }
+            .quote-text {
+                .quote-text-p {
+                    text-align: justify;
+                    font-size: 24px;
+                    line-height: 34px;
+                    padding: 0 8%;
+                }
+            }
+            .quote-holder-area {
+                text-align: left;
+                padding: 0 8%;
+                margin: 30px 0 50px;
+                display: flex;
+                align-items: center;
+                .q-holder-img {
+                    margin-right: 15px;
+                }
+                .q-holder-name {
+                    .ronald {
+                        font-size: 20px;
+                        line-height: 20px;
+                        font-weight: 700;
+                        color: $black;
+                        margin-bottom: 8px;
+                    }
+                    .designation {
+                        font-size: 16px;
+                        line-height: 16px;
+                        font-weight: 500;
+                        color: $exp-t-color;
+                    }
+                }
+            }
+            .t-prev-next-icon {
+                text-align: left;
+                padding: 0 8%;
+                .t-prev, .t-next {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    display: inline-block;
+                    background: #efefef;
+                    text-align: center;
+                    color: #aaa;
+                    position: relative;
+                    border: 1px solid transparent;
+                    &:hover {
+                        color: $orange;
+                        border: 1px solid $orange;
+                        transition: .3s ease-in-out all;
+                    }
+                    i {
+                        position: absolute;
+                        top: 50%; right: 50%;
+                        transform: translate(50%,-50%);
+                    }
+                }
+                .t-prev {
+                    margin-right: 20px;
+                }
+            }
+        }
+        .testimonial-img {
+            width: 40%;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+.global-network {
+    padding: 90px 0 160px;
+    .container.global {
+        position: relative;
+        .row.global-r {
+            position: absolute;
+            top: 25.5%;
+        }
+    }
+    .global-net-shape {
+        width: 61.1%;
+        height: 365px;
+        background: #ddd;
+        margin: 0 auto;
+    } 
+    .global-net-heading {
+        font-size: 48px;
+        line-height: 63px;
+        padding-right: 15%;
+    }
+    .global-net-text {
+        padding-right: 13%;
+    }
+}

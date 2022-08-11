@@ -1,0 +1,46 @@
+.navbar {
+    padding-top: 22px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid $bdr-color;
+
+    .navbar-brand {
+        .logo-text {
+            font-weight: 500;
+            color: $black;
+            margin-left: 10px;
+        }
+    }
+    .navbar-toggler {
+        border: 2px solid rgb(255, 87, 51, .7);
+        &:focus {
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(255, 87, 51, .7) 0px 0px 0px 1px;
+        }
+        .navbar-toggler-icon-bars {
+            color: rgb(255, 87, 51, .7);
+            padding: 4px;
+            display: block;
+        }
+    }
+    .navbar-nav {
+        .nav-item {
+            margin: 0px 20px;
+            .nav-link {
+                font-size: 14px;
+                font-weight: 400;
+                color: $black;
+                line-height: 14px;
+                border: 2px solid transparent;
+                border-radius: 16px;
+                &:hover {
+                    color: $orange;
+                    transition: .3s all;
+                    border: 2px solid rgb(255, 87, 51, .7);
+                    border-radius: 17px;
+                }
+            }
+            &:last-child {
+                margin: 0 !important;
+            }
+        }
+    }
+}

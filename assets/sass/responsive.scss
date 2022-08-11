@@ -1,0 +1,337 @@
+@import 'customs';
+@media screen and (max-width: 1400px) {
+    .global-network {
+        .row.global-r {
+            top: 25% !important;
+        }
+        .global-net-heading {
+            line-height: 58px;
+            padding-right: 0 !important;
+        }
+        .global-net-text {
+            padding-right: 0 !important;
+        }
+
+    }
+    // service section
+    .services-area {
+        .service-shape {
+            width: 109%;
+        }
+        .row.service-r {
+            left: -104px;
+        }
+    }
+    // testimonial section
+    .testimonial-img {
+        margin-top: -97px;
+    }
+
+}
+@media screen and (max-width: 1200px) {
+    .global-network {
+        .row.global-r {
+            top: 12% !important;
+        }
+    }
+
+    // service section
+    .services-area {
+        .service-shape {
+            width: 111%;
+        }
+    }
+    // testimonial section
+    .testimonial-area {
+        .testimonial-body {
+            padding: 100px 45px 60px 65px;
+            .testimonial-quote {
+                .quote-text {
+                    .quote-text-p {
+                        font-size: 18px;
+                        line-height: 28px;
+                    }
+                }
+                .quote-icon {
+                    left: -25px;
+                }
+            }
+        }
+    }
+
+
+
+
+}
+@media screen and (max-width: 992px) {
+    .banner-area {
+        .main-title {
+            width: 100% !important;
+            font-size: 57px;
+        }
+        .banner-text {
+            width: 100% !important;
+        }
+        .banner-shape1, 
+        .banner-shape2, 
+        .banner-shape3, 
+        .banner-shape4, 
+        .banner-shape5, 
+        .banner-shape6, 
+        .banner-shape7 {
+            display: none;
+        }
+    }
+
+    // global network section
+    .global-net-heading {
+        font-size: 44px !important;
+        line-height: 54px !important;
+    }
+    .global-net-text {
+        font-size: 17px;
+        line-height: 26px;
+    }
+    // Services Section
+    .services-area {
+        margin-bottom: 140px;
+        .service-item {
+            padding: 33px 15px 30px 14px;
+        }
+        .service-shape {
+            width: 115%;
+        }
+    }
+    // Experience Section
+    .experience-area {
+        .experience-left {
+            font-size: 44px !important;
+            line-height: 54px !important;
+            .exp-heading {
+                &:after {
+                    right: 0px;
+                }
+            }
+            .exp-years {
+                .exp-years-left {
+                    padding: 10px 8px 13px;
+                    .exp-project {
+                        font-size: 44px;
+                        line-height: 54px;
+                    }
+                    .exp-project-text {
+                        line-height: 21px;
+                    }
+                }
+                .exp-years-right {
+                    padding: 10px 8px 13px;
+                    .exp-year {
+                        font-size: 44px;
+                        line-height: 40px;
+                    }
+                    .exp-year-text {
+                        line-height: 21px;
+                    }
+                }
+
+            }
+            
+        }
+        .experience-right {
+            .experience-right-item {
+                .exp-designer-comp {
+                    font-size: 31px;
+                    line-height: 31px;
+                }
+                .exp-designer {
+                    font-size: 22px;
+                    line-height: 22px;
+                }
+                .designer-date-location {
+                    .designer-date,
+                    .designer-location {
+                        font-size: 14px;
+                        line-height: 18px;
+                    }
+                }
+            } 
+        }
+    }
+    // Testimonial section
+    .testimonial-area {
+        .testimonial-body {
+            .testimonial-quote {
+                width: 100%;
+                .t-prev-next-icon {
+                    text-align: center; 
+                }
+                .quote-text {
+                    .quote-text-p {
+                        padding: 0 0 0 9%;
+                    }
+                } 
+            }
+            .testimonial-img {
+                width: 0%;
+                display: none;
+            }
+        }
+
+    }
+
+
+
+}
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 40px !important;
+        line-height: 50px !important;
+    }
+    .container {
+        max-width: 90%;
+        .navbar-nav {
+            background-color: $bg-gray;
+            padding: 0px 24px 24px 24px;
+            margin-top: 15px;
+            position: relative;
+            border-top: 2px solid rgb(255, 87, 51, .5);
+
+            .nav-item {
+                margin: 0 0 !important;
+                border-bottom: 2px solid rgba(255, 87, 51, 0.5);
+                .nav-link {
+                    padding: 15px 0;
+                    border: unset;
+                    border-radius: 0;
+                    &:hover {
+                        margin-left: 8px;
+                        transition: .3s ease-in-out all;
+                        border: unset;
+                        border-radius: 0;
+                    }
+                }
+            }
+        }
+        .main-title {
+            font-size: 44px !important;
+            line-height: 54px !important;
+            width: 88% !important;
+        }
+    }
+    // global network section
+    .global-net-heading {
+        font-size: 40px !important;
+        line-height: 50px !important;
+        text-align: center !important;
+        margin-bottom: 30px;
+    }
+    .global-net-text {
+        text-align: center !important;
+    }
+    .global-net-shape {
+        display: none;
+    }
+
+    // Service Section
+    
+    .services-area {
+        margin-top: 25%;
+        .row.service-r {
+            display: none;
+        }
+        .service-item {
+            margin-top: 30px;
+        }
+    } 
+    // Experience Section    
+    .experience-area {
+        .experience-left {
+            padding-right: 0;
+            .exp-heading {
+                &::after {
+                    display: none;
+                }
+            }
+        }
+        .experience-right {
+            margin-top: 50px;
+        }
+    }   
+
+
+}
+
+@media screen and (max-width: 694px) {
+    .services-area {
+        margin-top: 36%;
+    }
+}
+@media screen and (max-width: 574px) {
+    .services-area {
+        margin-top: 45%;
+    }
+    // testimonial section
+    .testimonial-area {
+        .testimonial-body {
+            .testimonial-quote {
+                .quote-text {
+                    .quote-text-p {
+                        font-size: 16px;
+                        line-height: 26px;
+                        padding: 0 0 0 13%;
+                    }
+                } 
+            } 
+        }
+    }
+}
+@media screen and (max-width: 534px) {
+    .services-area {
+        margin-top: 55%;
+    }
+}
+@media screen and (max-width: 497px) {
+    .services-area {
+        margin-top: 70%;
+    }
+}
+@media screen and (max-width: 464px) {
+    .services-area {
+        margin-top: 89%;
+    }
+    // testimonial section
+    .testimonial-area {
+        .testimonial-body {
+            padding: 100px 25px 60px 45px;
+            .testimonial-quote {
+                .quote-text {
+                    .quote-text-p {
+                        font-size: 16px;
+                        line-height: 26px;
+                        padding: 0 0 0 13%;
+                    }
+                } 
+            } 
+        }
+    }
+}
+@media screen and (max-width: 396px) {
+    .services-area {
+        margin-top: 100%;
+    }
+}
+@media screen and (max-width: 382px) {
+    .services-area {
+        margin-top: 108%;
+    }
+}
+@media screen and (max-width: 382px) {
+    .services-area {
+        margin-top: 108%;
+    }
+}
+@media screen and (max-width: 368px) {
+    .logo-text {
+        font-size: 15px;
+    }
+}

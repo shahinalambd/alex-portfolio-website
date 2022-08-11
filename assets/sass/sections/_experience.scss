@@ -1,0 +1,91 @@
+.experience-area {
+    padding-bottom: 160px;
+    .experience-left {
+        padding-right: 25%;
+        .exp-heading {
+            position: relative;
+            &::after {
+                content: url('/assets/images/exp-shape.png');
+                position: absolute;
+                bottom: -30px;
+                right: 95px;
+            }
+        }
+        .exp-text {
+            margin: 50px 0 30px; 
+        }
+        .exp-bdr {
+            border-bottom: 1px solid $exp-bdr-color;
+        }
+        .exp-years {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            text-align: center;
+            margin-top: 30px;
+            .exp-years-left {
+                width: 40%;
+                background-color: $bg-gray;
+                padding: 10px 20px 22px;
+                .exp-project {
+                    color: $orange;
+                }
+                .exp-project-text {
+                    font-size: 16px;
+                    line-height: 26px;
+                    margin-top: 10px;
+                }
+            }
+            .exp-years-right {
+                width: 55%;
+                background-color: $bg-gray;
+                padding: 10px 20px 22px;
+                .exp-year {
+                    color: $orange;
+                }
+                .exp-year-text {
+                    font-size: 16px;
+                    line-height: 26px;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+    .experience-right {
+        .experience-right-item {
+            margin-bottom: 45px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+            .exp-designer {
+                font-size: 24px;
+                line-height: 24px;
+                font-weight: 400;
+                color: $exp-d-color;
+            }
+            .exp-designer-comp {
+                font-size: 36px;
+                line-height: 36px;
+                margin: 15px 0 25px;
+            }
+            .exp-bdr-right {
+                border-bottom: 1px solid $exp-bdr-color;
+            }
+            .designer-date-location {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 15px;
+                .designer-date, .designer-location {
+                    font-size: 16px;
+                    line-height: 26px;
+                    font-weight: 400;
+                    color: $exp-t-color;
+                }
+                .designer-location {
+                    text-align: right;
+                }
+            }
+        }
+    }
+}
