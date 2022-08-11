@@ -216,6 +216,11 @@
     margin-top: 70%;
   }
 }
+@media screen and (max-width: 496px) {
+  .company-logo .company-logo-item {
+    text-align: left;
+  }
+}
 @media screen and (max-width: 464px) {
   .services-area {
     margin-top: 89%;
