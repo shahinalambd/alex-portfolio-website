@@ -239,6 +239,14 @@
     line-height: 26px;
     padding: 0 0 0 13%;
   }
+  .testimonial-area .testimonial-body .testimonial-quote .quote-holder-area .ronald {
+    font-size: 17px !important;
+    line-height: 18px !important;
+    margin-bottom: 3px !important;
+  }
+  .testimonial-area .testimonial-body .testimonial-quote .quote-holder-area .designation {
+    font-size: 14px !important;
+  }
   .footer-area .f-mail {
     font-size: 34px !important;
     line-height: 44px !important;
