@@ -84,14 +84,18 @@
     }
 
     // global network section
-    .global-net-heading {
-        font-size: 44px !important;
-        line-height: 54px !important;
+    .global-network {
+        padding: 90px 0 100px;
+        .global-net-heading {
+            font-size: 44px !important;
+            line-height: 54px !important;
+        }
+        .global-net-text {
+            font-size: 17px;
+            line-height: 26px;
+        }
     }
-    .global-net-text {
-        font-size: 17px;
-        line-height: 26px;
-    }
+
     // Services Section
     .services-area {
         margin-bottom: 140px;
@@ -141,7 +145,7 @@
             .experience-right-item {
                 .exp-designer-comp {
                     font-size: 31px;
-                    line-height: 31px;
+                    line-height: 36px;
                 }
                 .exp-designer {
                     font-size: 22px;
@@ -219,18 +223,22 @@
         }
     }
     // global network section
-    .global-net-heading {
-        font-size: 40px !important;
-        line-height: 50px !important;
-        text-align: center !important;
-        margin-bottom: 30px;
-    }
-    .global-net-text {
-        text-align: center !important;
-    }
-    .global-net-shape {
-        display: none;
-    }
+    .global-network {
+        padding: 50px 0 160px !important;
+        .global-net-heading {
+            font-size: 40px !important;
+            line-height: 50px !important;
+            text-align: center !important;
+            margin-bottom: 30px;
+        }
+        .global-net-text {
+            text-align: center !important;
+        }
+        .global-net-shape {
+            display: none;
+        }
+    } 
+
 
     // Service Section
     
@@ -321,24 +329,101 @@
             } 
         }
     }
+    // Footer section
+    .footer-area {
+        .f-mail {
+            font-size: 34px !important;
+            line-height: 44px !important;
+        }
+    }
+
+}
+@media screen and (max-width: 410px) {
+    // Testimonial Section
+    .testimonial-area {
+        .testimonial-body {
+            padding: 90px 15px 45px 46px;
+            .testimonial-quote {
+                .quote-icon {
+                    left: -36px;
+                  }
+            }
+        }
+    }
+    // Footer section
+    .footer-area {
+        .f-mail {
+            font-size: 32px !important;
+            line-height: 42px !important;
+        }
+    } 
 }
 @media screen and (max-width: 396px) {
     .services-area {
         margin-top: 100%;
     }
+    .project-area {
+        .project-heading {
+            &:after {
+                display: none;
+            }
+        }
+    }
+}
+@media screen and (max-width: 382px) {
+    .services-area {
+        margin-top: 108%;
+    }
+    // Footer section
+    .footer-area {
+        .f-mail {
+            font-size: 28px !important;
+            line-height: 32px !important;
+        }
+    } 
 }
 @media screen and (max-width: 382px) {
     .services-area {
         margin-top: 108%;
     }
 }
-@media screen and (max-width: 382px) {
+@media screen and (max-width: 376px) {
     .services-area {
-        margin-top: 108%;
+        margin-top: 126% !important;
+        .services-heading {
+            &:after {
+                display: none;
+            }
+        }
     }
 }
 @media screen and (max-width: 368px) {
     .logo-text {
         font-size: 15px;
+    }
+}
+@media screen and (max-width: 345px) {
+    .services-area {
+        margin-top: 150% !important;
+    }
+    // Footer section
+    .footer-area {
+        .f-mail {
+            font-size: 26px !important;
+            line-height: 32px !important;
+        }
+    } 
+}
+
+@media screen and (max-width: 331px) {
+    .services-area {
+        margin-top: 165% !important;
+    }
+    .testimonial-area {
+        .testimonial-heading {
+            &:after {
+                display: none;
+            }
+        }
     }
 }
