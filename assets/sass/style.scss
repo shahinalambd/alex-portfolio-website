@@ -17,6 +17,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    position: relative;
 
 }
 h1, h2, h3, h4, h5 {
@@ -61,3 +62,35 @@ p {
     border: 1px solid $orange;
     transition: .3s ease-in-out all;
 }
+#scrollUp {
+    bottom: 20px;
+    right: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    position: fixed;
+    z-index: 2147483647;
+    display: block;
+    background: $orange;
+    color: $white;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding: 9px;
+    font-size: 30px;
+    border-radius: 50%;
+}
+
+.site-header {
+    transition: all .3s;
+    background: $white;
+    z-index: 999;
+    position: sticky; 
+  }
+  .sticky {
+    box-shadow: 0 13px 22px -5px rgb(0 0 0 / 6%);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: $white;
+    transition: all .3s;
+  }
