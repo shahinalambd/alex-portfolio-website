@@ -189,7 +189,7 @@
 }
 
 .experience-area {
-  padding-bottom: 160px;
+  padding-bottom: 100px;
 }
 .experience-area .experience-left {
   padding-right: 25%;
@@ -279,7 +279,7 @@
 }
 
 .testimonial-area {
-  margin-bottom: 160px;
+  margin-bottom: 100px;
 }
 .testimonial-area .testimonial-heading {
   position: relative;
@@ -442,7 +442,7 @@
 }
 .footer-area .f-location {
   font-size: 18px;
-  line-height: 18px;
+  line-height: 24px;
   color: #888888;
   margin: 40px 0 10px;
   display: block;

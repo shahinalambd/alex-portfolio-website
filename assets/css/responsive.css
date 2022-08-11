@@ -54,11 +54,14 @@
 .banner-area .banner-shape7 {
     display: none;
   }
-  .global-net-heading {
+  .global-network {
+    padding: 90px 0 100px;
+  }
+  .global-network .global-net-heading {
     font-size: 44px !important;
     line-height: 54px !important;
   }
-  .global-net-text {
+  .global-network .global-net-text {
     font-size: 17px;
     line-height: 26px;
   }
@@ -100,7 +103,7 @@
   }
   .experience-area .experience-right .experience-right-item .exp-designer-comp {
     font-size: 31px;
-    line-height: 31px;
+    line-height: 36px;
   }
   .experience-area .experience-right .experience-right-item .exp-designer {
     font-size: 22px;
@@ -160,16 +163,19 @@
     line-height: 54px !important;
     width: 88% !important;
   }
-  .global-net-heading {
+  .global-network {
+    padding: 50px 0 160px !important;
+  }
+  .global-network .global-net-heading {
     font-size: 40px !important;
     line-height: 50px !important;
     text-align: center !important;
     margin-bottom: 30px;
   }
-  .global-net-text {
+  .global-network .global-net-text {
     text-align: center !important;
   }
-  .global-net-shape {
+  .global-network .global-net-shape {
     display: none;
   }
   .services-area {
@@ -233,24 +239,72 @@
     line-height: 26px;
     padding: 0 0 0 13%;
   }
+  .footer-area .f-mail {
+    font-size: 34px !important;
+    line-height: 44px !important;
+  }
+}
+@media screen and (max-width: 410px) {
+  .testimonial-area .testimonial-body {
+    padding: 90px 15px 45px 46px;
+  }
+  .testimonial-area .testimonial-body .testimonial-quote .quote-icon {
+    left: -36px;
+  }
+  .footer-area .f-mail {
+    font-size: 32px !important;
+    line-height: 42px !important;
+  }
 }
 @media screen and (max-width: 396px) {
   .services-area {
     margin-top: 100%;
   }
+  .project-area .project-heading:after {
+    display: none;
+  }
+}
+@media screen and (max-width: 382px) {
+  .services-area {
+    margin-top: 108%;
+  }
+  .footer-area .f-mail {
+    font-size: 28px !important;
+    line-height: 32px !important;
+  }
 }
 @media screen and (max-width: 382px) {
   .services-area {
     margin-top: 108%;
   }
 }
-@media screen and (max-width: 382px) {
+@media screen and (max-width: 376px) {
   .services-area {
-    margin-top: 108%;
+    margin-top: 126% !important;
+  }
+  .services-area .services-heading:after {
+    display: none;
   }
 }
 @media screen and (max-width: 368px) {
   .logo-text {
     font-size: 15px;
+  }
+}
+@media screen and (max-width: 345px) {
+  .services-area {
+    margin-top: 150% !important;
+  }
+  .footer-area .f-mail {
+    font-size: 26px !important;
+    line-height: 32px !important;
+  }
+}
+@media screen and (max-width: 331px) {
+  .services-area {
+    margin-top: 165% !important;
+  }
+  .testimonial-area .testimonial-heading:after {
+    display: none;
   }
 }/*# sourceMappingURL=responsive.css.map */
