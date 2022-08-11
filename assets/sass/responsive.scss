@@ -182,9 +182,6 @@
         }
 
     }
-
-
-
 }
 @media screen and (max-width: 768px) {
     h2 {
@@ -231,53 +228,32 @@
             text-align: center !important;
             margin-bottom: 30px;
         }
-        .global-net-text {
-            text-align: center !important;
-        }
-        .global-net-shape {
-            display: none;
-        }
+        .global-net-text {text-align: center !important;}
+        .global-net-shape {display: none;}
     } 
-
 
     // Service Section
     
     .services-area {
         margin-top: 25%;
-        .row.service-r {
-            display: none;
-        }
-        .service-item {
-            margin-top: 30px;
-        }
+        .row.service-r {display: none;}
+        .service-item { margin-top: 30px;}
     } 
     // Experience Section    
     .experience-area {
         .experience-left {
             padding-right: 0;
             .exp-heading {
-                &::after {
-                    display: none;
-                }
+                &::after {display: none;}
             }
         }
-        .experience-right {
-            margin-top: 50px;
-        }
+        .experience-right {margin-top: 50px;}
     }   
-
-
 }
 
-@media screen and (max-width: 694px) {
-    .services-area {
-        margin-top: 36%;
-    }
-}
+@media screen and (max-width: 694px) {.services-area {margin-top: 36%;}}
 @media screen and (max-width: 574px) {
-    .services-area {
-        margin-top: 45%;
-    }
+    .services-area {margin-top: 45%;}
     // testimonial section
     .testimonial-area {
         .testimonial-body {
@@ -293,27 +269,11 @@
         }
     }
 }
-@media screen and (max-width: 534px) {
-    .services-area {
-        margin-top: 55%;
-    }
-}
-@media screen and (max-width: 497px) {
-    .services-area {
-        margin-top: 70%;
-    }
-}
-@media screen and (max-width: 496px) {
-    .company-logo {
-        .company-logo-item {
-            text-align: left;
-        }
-    } 
-}
+@media screen and (max-width: 534px) {.services-area {margin-top: 55%;}}
+@media screen and (max-width: 497px) {.services-area { margin-top: 70%;}}
+@media screen and (max-width: 496px) {.company-logo {.company-logo-item {text-align: left;}} }
 @media screen and (max-width: 464px) {
-    .services-area {
-        margin-top: 89%;
-    }
+    .services-area {margin-top: 89%;}
     // testimonial section
     .testimonial-area {
         .testimonial-body {
@@ -325,18 +285,22 @@
                         line-height: 26px;
                         padding: 0 0 0 13%;
                     }
+                }
+                .quote-holder-area {
+                    .ronald {
+                        font-size: 17px !important;
+                        line-height: 18px !important;
+                        margin-bottom: 3px !important;
+                    }
+                    .designation {font-size: 14px !important;}
                 } 
             } 
         }
     }
     // Footer section
     .footer-area {
-        .f-mail {
-            font-size: 34px !important;
-            line-height: 44px !important;
-        }
+        .f-mail {font-size: 34px !important; line-height: 44px !important;}
     }
-
 }
 @media screen and (max-width: 410px) {
     // Testimonial Section
@@ -382,11 +346,7 @@
         }
     } 
 }
-@media screen and (max-width: 382px) {
-    .services-area {
-        margin-top: 108%;
-    }
-}
+@media screen and (max-width: 382px) {.services-area {margin-top: 108%;}}
 @media screen and (max-width: 376px) {
     .services-area {
         margin-top: 126% !important;
@@ -397,15 +357,8 @@
         }
     }
 }
-@media screen and (max-width: 368px) {
-    .logo-text {
-        font-size: 15px;
-    }
-}
-@media screen and (max-width: 345px) {
-    .services-area {
-        margin-top: 150% !important;
-    }
+@media screen and (max-width: 368px) {.logo-text {font-size: 15px;}}
+@media screen and (max-width: 345px) {.services-area {margin-top: 150% !important;}
     // Footer section
     .footer-area {
         .f-mail {
@@ -416,9 +369,7 @@
 }
 
 @media screen and (max-width: 331px) {
-    .services-area {
-        margin-top: 165% !important;
-    }
+    .services-area {margin-top: 165% !important;}
     .testimonial-area {
         .testimonial-heading {
             &:after {

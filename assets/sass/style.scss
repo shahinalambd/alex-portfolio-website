@@ -85,12 +85,12 @@ p {
     background: $white;
     z-index: 999;
     position: sticky; 
-  }
-  .sticky {
+}
+.sticky {
     box-shadow: 0 13px 22px -5px rgb(0 0 0 / 6%);
     position: sticky;
     top: 0;
     width: 100%;
     background: $white;
     transition: all .3s;
-  }
+}

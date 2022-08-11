@@ -21,8 +21,5 @@ $(document).ready(function() {
       scrollText: '<i class="fa-solid fa-arrow-up"></i>', // Text for element
       activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
     });
-  
-   
-
 });
 
